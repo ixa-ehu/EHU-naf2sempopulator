@@ -1,0 +1,8 @@
+This is a small script that calls VUA-EventCoreference's naf2sem function
+and can be integrated in a Newsreader style pipeline.
+
+Please edit config.pl to specify where to look for these
+resources:
+
+$ksserver = KS url (naf2sem)
+$eventcorefloc =  EventCoreference directory
